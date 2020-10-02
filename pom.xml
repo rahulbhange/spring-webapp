@@ -70,5 +70,17 @@
 			</plugin>
 		</plugins>
 	</build>
+		<distributionManagement>
+    <snapshotRepository>
+      <id>spring-repository</id>
+      <url>http://15.207.117.150:8081/repository/spring-snapshot/</url>
+    </snapshotRepository>
+	<repository>
+	  <id>spring-repository</id>
+      <url>http://15.207.117.150:8081/repository/spring-release/</url>
+    </repository>
+  
+  </distributionManagement>
+
 
 </project>
