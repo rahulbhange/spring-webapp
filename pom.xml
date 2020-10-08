@@ -72,12 +72,12 @@
 	</build>
 		<distributionManagement>
     <snapshotRepository>
-      <id>spring-repository</id>
-      <url>http://15.207.117.150:8081/repository/spring-snapshot/</url>
+      <id>maven-repo</id>
+      <url>http://13.127.35.46:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 	<repository>
-	  <id>spring-repository</id>
-      <url>http://15.207.117.150:8081/repository/spring-release/</url>
+	  <id>maven-repo</id>
+      <url>http://13.127.35.46:8081/repository/maven-releases/</url>
     </repository>
   
   </distributionManagement>
